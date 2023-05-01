@@ -71,6 +71,11 @@ a {
     padding-bottom: 94px;
   }
 }
+.container {
+  margin-left: 138px;
+  margin-right: 168px;
+}
+
 .ploshadka {
   background-color: #ea5ffc;
 }

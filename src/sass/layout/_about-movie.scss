@@ -1,5 +1,28 @@
 .ploshadka{
-background-color:$color-secondary-pink ;
+    height: 461px;
+    width: 1441px;
+    background-color:$color-secondary-pink ;
+    display: flex;
+}
+// .h2-p{
+//     flex-wrap: wrap;
+// }
+.about-movie{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    color: $color-white;
+    margin-bottom: 10px;
+}
+.text-movie{
+ 
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: $color-white;
+
 }
 .ukr{
     width: 365px;
@@ -8,4 +31,5 @@ background-color:$color-secondary-pink ;
 .moving{
     width: 265px;
     height: 203px;
+    
 }

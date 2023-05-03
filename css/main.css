@@ -77,7 +77,29 @@ a {
 }
 
 .ploshadka {
+  height: 461px;
+  width: 1441px;
   background-color: #ea5ffc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-movie {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.text-movie {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFF;
 }
 
 .ukr {
@@ -91,7 +113,29 @@ a {
 }
 
 .team {
+  height: 461px;
+  width: 1441px;
   background-color: #be11ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-us {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.text-us {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFF;
 }
 
 .team1 {

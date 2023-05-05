@@ -1,23 +1,33 @@
 .team{
+    padding-top: 34px;
+    padding-bottom: 50px;
     height: 461px;
-    width: 1441px;
-    background-color: $color-rgba-gray;
-    display: flex;
+    width: 100%;
+    background-color:$color-secondary-rgba-red;
+   
+}
+.all-we{
+  padding: 50px 200px;
 }
 .about-us{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 69px;
+    font-size: 28px;
+    line-height: 20px;
     color: $color-white;
     margin-bottom: 10px;
 }
 .text-us{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 14px;
+    line-height: 25px;
     color: $color-white;
+}
+.img1{
+  display: flex;  
+  float: right;
+  justify-content: flex-end;
 }
 .team1{
     width: 365px;
@@ -26,4 +36,30 @@
 .team2{
     width: 265px;
     height: 203px;
+}
+@media screen and (min-width:480px) {
+    .team {
+     
+    }
+    .team1{
+     width: 181px;
+     height: 124px; ;
+    }
+    .team2{
+    width: 132px; ;
+    height: 86px;
+    }
+}
+
+ @media screen and (min-width:768px) {
+    .team {
+     
+    }
+}
+
+  @media screen and (min-width:1200px) {
+    .team {
+     
+    }
+
 }

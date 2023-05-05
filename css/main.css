@@ -77,19 +77,22 @@ a {
 }
 
 .ploshadka {
+  padding-top: 50px;
+  padding-bottom: 50px;
   height: 461px;
-  width: 1441px;
-  background-color: #ea5ffc;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 100;
+  background-color: #230000;
+}
+
+.all-film {
+  padding: 50px 200px;
 }
 
 .about-movie {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 69px;
+  font-size: 28px;
+  line-height: 20px;
   color: #FFF;
   margin-bottom: 10px;
 }
@@ -97,9 +100,20 @@ a {
 .text-movie {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
+  font-size: 14px;
+  line-height: 25px;
   color: #FFF;
+}
+
+.h:hover {
+  pointer-events: stroke;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
 }
 
 .ukr {
@@ -112,20 +126,33 @@ a {
   height: 203px;
 }
 
+@media screen and (min-width: 480px) {
+  .ukr {
+    width: 169px;
+    height: 154px;
+  }
+  .moving {
+    width: 175px;
+    height: 109px;
+  }
+}
 .team {
+  padding-top: 34px;
+  padding-bottom: 50px;
   height: 461px;
-  width: 1441px;
-  background-color: #be11ed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 100%;
+  background-color: #200000;
+}
+
+.all-we {
+  padding: 50px 200px;
 }
 
 .about-us {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 69px;
+  font-size: 28px;
+  line-height: 20px;
   color: #FFF;
   margin-bottom: 10px;
 }
@@ -133,9 +160,19 @@ a {
 .text-us {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
+  font-size: 14px;
+  line-height: 25px;
   color: #FFF;
+}
+
+.img1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .team1 {
@@ -146,4 +183,15 @@ a {
 .team2 {
   width: 265px;
   height: 203px;
+}
+
+@media screen and (min-width: 480px) {
+  .team1 {
+    width: 181px;
+    height: 124px;
+  }
+  .team2 {
+    width: 132px;
+    height: 86px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,28 +1,51 @@
 .ploshadka{
+    padding-top: 50px;
+    padding-bottom: 50px;
     height: 461px;
-    width: 1441px;
+    width:100;
     background-color:$color-rgba-red ;
-    display: flex;
+    
 }
-// .h2-p{
-//     flex-wrap: wrap;
-// }
+.all-film{
+    padding: 50px 200px;
+}
 .about-movie{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 69px;
+    font-size: 28px;
+    line-height: 20px;
     color: $color-white;
     margin-bottom: 10px;
 }
 .text-movie{
- 
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 14px;
+    line-height: 25px;
     color: $color-white;
+  
+}
+.h:hover{
+    pointer-events:stroke;
+}
 
+// @keyframes h{
+//     0%{
+//         margin-bottom: -20%;
+//     }
+//     30%{
+//        letter-spacing: 20px;
+//        margin-bottom: -20%;
+//     }
+//     85%{
+//         letter-spacing: 5px;
+//         margin-bottom: -20%;
+//      }
+
+// }
+.img{
+    display: flex;  
+    float: right;
 }
 .ukr{
     width: 365px;
@@ -32,4 +55,30 @@
     width: 265px;
     height: 203px;
     
+}
+@media screen and (min-width:480px) {
+    .all-film {
+      
+    }
+    .ukr{
+        width:169px ;
+        height: 154px; ;
+    }
+    .moving{
+        width: 175px; ;
+        height: 109px; ;
+    }
+}
+
+ @media screen and (min-width:768px) {
+    .all-film {
+    
+    }
+}
+
+  @media screen and (min-width:1200px) {
+    .all-film {
+     
+    }
+
 }

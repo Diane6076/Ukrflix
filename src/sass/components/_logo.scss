@@ -1,49 +1,42 @@
 // Лого в хедері
 
-.logo-h1 {
-    color:#0085FF;
-}
-
-.logo-h2 {
-    color: #fbff04;
-}
-
 .logo-h {
     font-weight: 700;
     font-size: 48px;
     line-height: 69px;
     text-align: center;
     // animation-name: logo-start;
+    text-decoration: none;
 
     color:$color-white;
-}
 
-// Ховер хедер
+    &1 {
+        color:#0085FF;  
+    }
 
-.logo-h:hover {
-    color: rgba(159, 19, 19, 0.796);
-    font-weight: 900;
-}
+    &2 {
+        color: #fbff04;
+    }
 
-.logo-h:hover > .logo-h2 {
-    color: rgba(159, 19, 19, 0.796);
-    font-weight: 900;
-}
+    // Ховер хедер
 
-.logo-h:hover > .logo-h1 {
-    color: rgba(159, 19, 19, 0.796);
-    font-weight: 900;
+    &:hover {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
+
+    &:hover > &1 {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
+
+    &:hover > &2 {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
 }
 
 // Лого в футері
-
-.logo-f1 {
-    color:#0085FF;
-}
-
-.logo-f2 {
-    color: #fbff04;
-}
 
 .logo-f {
     font-weight: 700;
@@ -51,24 +44,36 @@
     line-height: 69px;
     color: $color-white;
     display: inline;
-}
+    text-decoration: none;
 
-.logo-f-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    &1 {
+        color:#0085FF;
+    }
+
+    &2 {
+        color: #fbff04;
+    }
+
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 // Ховер лого футер
 
-.logo-f:hover > .logo-f1 {
-    color: rgba(159, 19, 19, 0.796);
-}
+    &:hover {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
 
-.logo-f:hover > .logo-f2 {
-    color: rgba(159, 19, 19, 0.796);   
-}
+    &:hover > &1 {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
 
-.logo-f:hover {
-    color: rgba(159, 19, 19, 0.796);  
+    &:hover > &2 {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;   
+    }
 }

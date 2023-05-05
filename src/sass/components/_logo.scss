@@ -1,0 +1,74 @@
+// Лого в хедері
+
+.logo-h1 {
+    color:#0085FF;
+}
+
+.logo-h2 {
+    color: #fbff04;
+}
+
+.logo-h {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+    // animation-name: logo-start;
+
+    color:$color-white;
+}
+
+// Ховер хедер
+
+.logo-h:hover {
+    color: rgba(159, 19, 19, 0.796);
+    font-weight: 900;
+}
+
+.logo-h:hover > .logo-h2 {
+    color: rgba(159, 19, 19, 0.796);
+    font-weight: 900;
+}
+
+.logo-h:hover > .logo-h1 {
+    color: rgba(159, 19, 19, 0.796);
+    font-weight: 900;
+}
+
+// Лого в футері
+
+.logo-f1 {
+    color:#0085FF;
+}
+
+.logo-f2 {
+    color: #fbff04;
+}
+
+.logo-f {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    color: $color-white;
+    display: inline;
+}
+
+.logo-f-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Ховер лого футер
+
+.logo-f:hover > .logo-f1 {
+    color: rgba(159, 19, 19, 0.796);
+}
+
+.logo-f:hover > .logo-f2 {
+    color: rgba(159, 19, 19, 0.796);   
+}
+
+.logo-f:hover {
+    color: rgba(159, 19, 19, 0.796);  
+}

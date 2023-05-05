@@ -1,0 +1,27 @@
+.header {
+    background-color:$color-secondary-red;
+    // box-shadow: -10px 0px 5px black;
+
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 138px 18px 138px;
+    }
+
+    // &-item {
+
+    // }
+
+    &-link {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+
+        color: $color-white;
+    }
+
+    &-link:hover {
+        font-weight: 700;
+    }
+}

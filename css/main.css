@@ -191,25 +191,57 @@ a {
   color: transparent;
 }
 
+.ploshadka {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 461px;
+  width: 100;
+  background-color: #230000;
+}
+
+.all-film {
+  padding: 50px 200px;
+}
+
+.about-movie {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.text-movie {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFF;
+}
+
+.h:hover {
+  pointer-events: stroke;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+.ukr {
+  width: 365px;
+  height: 251px;
+}
+
+.moving {
+  width: 265px;
+  height: 203px;
+}
+
 @media screen and (min-width: 480px) {
-  .ploshadka {
-    background-color: #230000;
-  }
-  .about-movie {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: left;
-    margin-bottom: 10px;
-  }
-  .text-movie {
-    font-size: 9px;
-    line-height: 17px;
-    letter-spacing: 0.03em;
-    font-weight: 400;
-  }
   .ukr {
     width: 169px;
     height: 154px;
@@ -219,124 +251,63 @@ a {
     height: 109px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .ploshadka {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 461px;
-    width: 100%;
-    background-color: #230000;
-    font-family: "Playfair Display", serif;
-  }
-  .all-film {
-    margin-left: 100px;
-  }
-  .about-movie {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 20px;
-    color: #FFF;
-    margin-bottom: 10px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: left;
-  }
-  .text-movie {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    color: #FFF;
-    letter-spacing: 0.03em;
-  }
-  .h:hover {
-    pointer-events: stroke;
-  }
-  .img1 {
-    display: block;
-    float: right;
-  }
-  .ukr {
-    width: 365px;
-    height: 251px;
-    margin-left: 35px;
-  }
-  .moving {
-    width: 265px;
-    height: 203px;
-  }
+.team {
+  padding-top: 34px;
+  padding-bottom: 50px;
+  height: 461px;
+  width: 100%;
+  background-color: #200000;
 }
+
+.all-we {
+  padding: 50px 200px;
+}
+
+.about-us {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.text-us {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFF;
+}
+
+.img1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.team1 {
+  width: 365px;
+  height: 251px;
+}
+
+.team2 {
+  width: 265px;
+  height: 203px;
+}
+
 @media screen and (min-width: 480px) {
-  .team {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .about-us {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: left;
-    margin-bottom: 10px;
-  }
-  .text-us {
-    font-size: 9px;
-    line-height: 17px;
-    letter-spacing: 0.03em;
-    font-weight: 400;
-  }
   .team1 {
     width: 181px;
     height: 124px;
-    margin-bottom: 10px;
   }
   .team2 {
     width: 132px;
     height: 86px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team {
-    font-family: "Playfair Display", serif;
-    padding-top: 34px;
-    padding-bottom: 50px;
-    height: 461px;
-    width: 100%;
-    background-color: #200000;
-  }
-  .about-us {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 20px;
-    color: #FFF;
-    margin-bottom: 10px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: right;
-  }
-  .text-us {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    color: #FFF;
-    letter-spacing: 0.03em;
-  }
-  .img2 {
-    display: block;
-    float: left;
-  }
-  .team1 {
-    width: 365px;
-    height: 251px;
-  }
-  .team2 {
-    width: 265px;
-    height: 203px;
-    margin-left: 35px;
   }
 }
 .footer {

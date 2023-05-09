@@ -1,65 +1,143 @@
-.team{
+@media screen and (min-width: 480px) {
+  .team {
+    display: flex;
+   
+  }
+  .about-us {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .text-us {
+    font-size: 9px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+  }
+  .img2{
+    display: block;
+    float: left;
+
+  }
+  .team1 {
+    width: 181px;
+    height: 124px;
+    margin-bottom: 10px;
+  }
+  .team2 {
+    width: 132px;
+    height: 86px;
+  }
+}
+@media screen and (min-width:768px) {
+  
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    font-family: "Playfair Display", serif;
     padding-top: 34px;
     padding-bottom: 50px;
     height: 461px;
     width: 100%;
-    background-color:$color-secondary-rgba-red;
-   
-}
-.all-we{
-  padding: 50px 200px;
-}
-.about-us{
-    font-family: 'Playfair Display', serif;
+    background-color: $color-secondary-rgba-red;
+  }
+  .about-us {
     font-weight: 700;
     font-size: 28px;
     line-height: 20px;
     color: $color-white;
     margin-bottom: 10px;
-}
-.text-us{
-    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+  .text-us {
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
-    color: $color-white;
-}
-.img1{
-  display: flex;  
-  float: right;
-  justify-content: flex-end;
-}
-.team1{
+    color:$color-white;
+    letter-spacing: 0.03em;
+  }
+  .img2 {
+    display: block;
+    float: left;
+  }
+  .team1 {
     width: 365px;
     height: 251px;
-}
-.team2{
+  }
+  .team2 {
     width: 265px;
     height: 203px;
+    margin-left: 35px;
+  }
 }
-@media screen and (min-width:480px) {
-    .team {
+// .team{
+//     padding-top: 34px;
+//     padding-bottom: 50px;
+//     height: 461px;
+//     width: 100%;
+//     background-color:$color-secondary-rgba-red;
+   
+// }
+// .all-we{
+//   padding: 50px 200px;
+// }
+// .about-us{
+//     font-family: 'Playfair Display', serif;
+//     font-weight: 700;
+//     font-size: 28px;
+//     line-height: 20px;
+//     color: $color-white;
+//     margin-bottom: 10px;
+// }
+// .text-us{
+//     font-family: 'Playfair Display', serif;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 25px;
+//     color: $color-white;
+// }
+// .img1{
+//   display: flex;  
+//   float: right;
+//   justify-content: flex-end;
+// }
+// .team1{
+//     width: 365px;
+//     height: 251px;
+// }
+// .team2{
+//     width: 265px;
+//     height: 203px;
+// }
+// @media screen and (min-width:480px) {
+//     .team {
      
-    }
-    .team1{
-     width: 181px;
-     height: 124px; ;
-    }
-    .team2{
-    width: 132px; ;
-    height: 86px;
-    }
-}
+//     }
+//     .team1{
+//      width: 181px;
+//      height: 124px; ;
+//     }
+//     .team2{
+//     width: 132px; ;
+//     height: 86px;
+//     }
+// }
 
- @media screen and (min-width:768px) {
-    .team {
+//  @media screen and (min-width:768px) {
+//     .team {
      
-    }
-}
+//     }
+// }
 
-  @media screen and (min-width:1200px) {
-    .team {
+//   @media screen and (min-width:1200px) {
+//     .team {
      
-    }
+//     }
 
-}
+// }

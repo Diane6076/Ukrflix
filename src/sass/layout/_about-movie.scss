@@ -1,84 +1,88 @@
-.ploshadka{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 461px;
-    width:100;
-    background-color:$color-rgba-red ;
-    
-}
-.all-film{
-    padding: 50px 200px;
-}
-.about-movie{
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 20px;
-    color: $color-white;
-    margin-bottom: 10px;
-}
-.text-movie{
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    color: $color-white;
-  
-}
-.h:hover{
-    pointer-events:stroke;
-}
-
-// @keyframes h{
-//     0%{
-//         margin-bottom: -20%;
-//     }
-//     30%{
-//        letter-spacing: 20px;
-//        margin-bottom: -20%;
-//     }
-//     85%{
-//         letter-spacing: 5px;
-//         margin-bottom: -20%;
-//      }
-
-// }
-.img{
-    display: flex;  
-    float: right;
-}
-.ukr{
-    width: 365px;
-    height: 251px;
-}
-.moving{
-    width: 265px;
-    height: 203px;
-    
-}
 @media screen and (min-width:480px) {
-    .all-film {
-      
+    .ploshadka{
+        background-color:$color-rgba-red ;
+    }
+    .about-movie{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .text-movie{
+        font-size: 9px;
+        line-height: 17px;
+        letter-spacing: 0.03em;
+        font-weight: 400;
+    }
+    .img1{
+
     }
     .ukr{
         width:169px ;
-        height: 154px; ;
+        height: 154px; 
     }
     .moving{
-        width: 175px; ;
-        height: 109px; ;
+        width: 175px; 
+        height: 109px;
     }
 }
-
  @media screen and (min-width:768px) {
     .all-film {
     
     }
 }
-
   @media screen and (min-width:1200px) {
-    .all-film {
-     
+    .ploshadka{
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 461px;
+        width:100%;
+        background-color:$color-rgba-red ;
+        font-family: 'Playfair Display', serif;
+      
     }
-
+    .all-film{
+        margin-left: 100px;
+    }
+    .h2_p{
+        
+    }
+    .about-movie{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 20px;
+        color: $color-white;
+        margin-bottom: 10px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    .text-movie{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: $color-white;
+        letter-spacing: 0.03em;
+    }
+    .h:hover{
+        pointer-events:stroke;
+    }
+    .img1{
+        display:block ;  
+        float: right;
+    }
+    .ukr{
+        
+        width: 365px;
+        height: 251px;
+        margin-left: 35px;
+    }
+    .moving{
+        width: 265px;
+        height: 203px;
+    }
 }

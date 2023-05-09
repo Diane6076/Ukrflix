@@ -1,65 +1,94 @@
-.team{
-    padding-top: 34px;
-    padding-bottom: 50px;
-    height: 461px;
-    width: 100%;
-    background-color:$color-secondary-rgba-red;
-   
-}
-.all-we{
-  padding: 50px 200px;
-}
-.about-us{
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 20px;
-    color: $color-white;
-    margin-bottom: 10px;
-}
-.text-us{
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    color: $color-white;
-}
-.img1{
-  display: flex;  
-  float: right;
-  justify-content: flex-end;
-}
-.team1{
-    width: 365px;
-    height: 251px;
-}
-.team2{
-    width: 265px;
-    height: 203px;
-}
 @media screen and (min-width:480px) {
     .team {
-     
+     display: flex;
+    }
+    .about-us{
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     text-align: left;
+     margin-bottom: 10px;
+    }
+    .text-us{
+      font-size: 9px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    font-weight: 400;
     }
     .team1{
      width: 181px;
-     height: 124px; ;
+     height: 124px; 
+     margin-bottom:10px ;
     }
     .team2{
-    width: 132px; ;
+    width: 132px; 
     height: 86px;
+    
     }
 }
 
  @media screen and (min-width:768px) {
-    .team {
+    .team1 {
      
     }
 }
 
   @media screen and (min-width:1200px) {
-    .team {
+    // .team1 {
+    //   width: 365px;
+    //   height: 251px;
+    // }
+    // .team2{
+    //   width: 265px;
+    //   height: 203px;
+    //   margin-left: 35px;
+    // }
+    // .all-we{
+    //   padding: 50px 200px;
+    // }
+    .team{
+      font-family: 'Playfair Display', serif;
+        padding-top: 34px;
+        padding-bottom: 50px;
+        height: 461px;
+        width: 100%;
+        background-color:$color-secondary-rgba-red;
+    }
+    .h2_p{
      
     }
+    .about-us{
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 20px;
+      color: $color-white;
+      margin-bottom: 10px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      text-align: right;
+    }
 
-}
+    .text-us{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: $color-white;
+        letter-spacing: 0.03em;
+    }
+    .img2{
+      display: block;  
+      float: left;
+      // justify-content: flex-end;
+    }
+    .team1{
+        width: 365px;
+        height: 251px;
+    }
+    .team2{
+        width: 265px;
+        height: 203px;
+        margin-left: 35px;
+    }
+  }

@@ -1,46 +1,35 @@
 .team{
-  font-family: 'Playfair Display', serif;
     padding-top: 34px;
     padding-bottom: 50px;
     height: 461px;
     width: 100%;
     background-color:$color-secondary-rgba-red;
-
+   
 }
 .all-we{
   padding: 50px 200px;
 }
-.h2_p{
-  display: flex;
-  float: right;
-}
-.curs:hover{
-  cursor: pointer;
-}
 .about-us{
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 20px;
     color: $color-white;
     margin-bottom: 10px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 .text-us{
-  margin-top: 15px;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
     color: $color-white;
-    letter-spacing: 0.03em;
 }
 .img1{
   display: flex;  
-  float: left;
+  float: right;
   justify-content: flex-end;
 }
 .team1{
-   margin-right: 35px;
     width: 365px;
     height: 251px;
 }
@@ -51,14 +40,6 @@
 @media screen and (min-width:480px) {
     .team {
      
-    }
-    .about-us{
-      font-size: 20px;
-      line-height: 10px;
-    }
-    .text-us{
-      font-size: 9px;
-        line-height: 17px;
     }
     .team1{
      width: 181px;
@@ -78,15 +59,7 @@
 
   @media screen and (min-width:1200px) {
     .team {
-    
-
+     
     }
-    .team1{
-      width: 365px;
-      height: 251px;
-  }
-  .team2{
-      width: 265px;
-      height: 203px;
-  }
+
 }

@@ -192,7 +192,6 @@ a {
 }
 
 .ploshadka {
-  font-family: "Playfair Display", serif;
   padding-top: 50px;
   padding-bottom: 50px;
   height: 461px;
@@ -205,25 +204,24 @@ a {
 }
 
 .about-movie {
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 20px;
   color: #FFF;
   margin-bottom: 10px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .text-movie {
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
   color: #FFF;
-  letter-spacing: 0.03em;
 }
 
 .h:hover {
-  cursor: -webkit-grabbing;
+  pointer-events: stroke;
 }
 
 .img {
@@ -236,7 +234,6 @@ a {
 .ukr {
   width: 365px;
   height: 251px;
-  margin-left: 35px;
 }
 
 .moving {
@@ -245,17 +242,6 @@ a {
 }
 
 @media screen and (min-width: 480px) {
-  .ploshadka {
-    width: 100%;
-  }
-  .about-movie {
-    font-size: 20px;
-    line-height: 10px;
-  }
-  .text-movie {
-    font-size: 9px;
-    line-height: 17px;
-  }
   .ukr {
     width: 169px;
     height: 154px;
@@ -265,18 +251,7 @@ a {
     height: 109px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .ukr {
-    width: 365px;
-    height: 251px;
-  }
-  .moving {
-    width: 265px;
-    height: 203px;
-  }
-}
 .team {
-  font-family: "Playfair Display", serif;
   padding-top: 34px;
   padding-bottom: 50px;
   height: 461px;
@@ -288,48 +263,34 @@ a {
   padding: 50px 200px;
 }
 
-.h2_p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: right;
-}
-
-.curs:hover {
-  cursor: pointer;
-}
-
 .about-us {
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 20px;
   color: #FFF;
   margin-bottom: 10px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .text-us {
-  margin-top: 15px;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
   color: #FFF;
-  letter-spacing: 0.03em;
 }
 
 .img1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  float: left;
+  float: right;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
 .team1 {
-  margin-right: 35px;
   width: 365px;
   height: 251px;
 }
@@ -340,14 +301,6 @@ a {
 }
 
 @media screen and (min-width: 480px) {
-  .about-us {
-    font-size: 20px;
-    line-height: 10px;
-  }
-  .text-us {
-    font-size: 9px;
-    line-height: 17px;
-  }
   .team1 {
     width: 181px;
     height: 124px;
@@ -355,16 +308,6 @@ a {
   .team2 {
     width: 132px;
     height: 86px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team1 {
-    width: 365px;
-    height: 251px;
-  }
-  .team2 {
-    width: 265px;
-    height: 203px;
   }
 }
 .footer {
@@ -504,4 +447,59 @@ a {
   background-image: url(/src/img/twit.svg);
   width: 37px;
   height: 37px;
+}
+
+.cards {
+  padding-top: 50px;
+  background-color: #200000;
+}
+
+.card-title {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.card {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .card {
+    margin-bottom: 40px;
+  }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #FFF;
+    background-color: #200000;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+  }
+  .card-title {
+    color: #000;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: calc((100% - 180px) / 6);
+  }
+  .cards {
+    background-color: #200000;
+  }
+  .card-title {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cards {
+    background-color: #200000;
+  }
+  .card-title {
+    background-color: #000;
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -5,13 +5,12 @@
     font-size: 48px;
     line-height: 69px;
     text-align: center;
-    // animation-name: logo-start;
     text-decoration: none;
 
     color:$color-white;
 
     &1 {
-        color:#0085FF;  
+        color:#0085FF;
     }
 
     &2 {
@@ -75,5 +74,22 @@
     &:hover > &2 {
         color: rgba(159, 19, 19, 0.796);
         font-weight: 900;   
+    }
+}
+
+// нормальна версія лого для хедера
+
+.logo-mobile {
+    display: block;
+    margin: 0 auto;
+
+    @media screen and (min-width: 481px) {
+        display: none;
+    }
+}
+
+.logo-desk {
+    @media screen and (max-width: 480px) {
+       display: none; 
     }
 }

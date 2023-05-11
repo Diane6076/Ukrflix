@@ -1,17 +1,81 @@
+.team{
+  background-color: $color-secondary-rgba-red;
+}
+.h2_p{
+  color: $color-white;
+}
+
+.all-we {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 94%;
+}
+
+@media screen and (min-width:300px) {
+  .all-we{
+    flex-direction: column;
+    gap: 2.5em;
+    justify-content: center;
+    place-items: center;
+  }
+  .team {
+    display: flex;
+    background-color: $color-secondary-rgba-red;
+  }
+  .img2{
+    display: block;
+    float: left;
+  
+  }
+  .h2_p{
+    width: 280px;
+    color: $color-white;
+  }
+  .h2_p:hover{
+    cursor: pointer;
+}
+  .about-us{
+    font-size: 7px;
+    line-height: 14px;
+  }
+  .text-us{
+    font-size: 5px;
+    line-height: 10px;
+  }
+  .team1 {
+    width: 115px;
+    height: 105px;
+  }
+  .team2 {
+    width: 105px;
+    height: 86px;
+    margin-left: 20px;
+  }
+}
 @media screen and (min-width: 480px) {
   .team {
     display: flex;
-   
+    background-color: $color-secondary-rgba-red;
+    flex-direction: row;
   }
   .about-us {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 27px;
+    line-height: 30px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: left;
     margin-bottom: 10px;
   }
+  .h2_p{
+      width: 400px;
+      color: $color-white;
+  }
+  .h2_p:hover{
+    cursor: pointer;
+}
   .text-us {
     font-size: 9px;
     line-height: 17px;
@@ -21,46 +85,86 @@
   .img2{
     display: block;
     float: left;
+  
+  }
+  .team1 {
+    width: 301px;
+    height: 264px;
+    
+  }
+  .team2 {
+    width: 272px;
+    height: 206px;
+  
+  }
+}
+@media screen and (min-width:768px) {
+  .all-we{
+    flex-direction: row;
 
+  }
+  .team {
+    display: flex;
+    background-color: $color-secondary-rgba-red;
+    flex-direction: row;
+  }
+  .img2{
+    display: block;
+    float: left;
   }
   .team1 {
     width: 181px;
     height: 124px;
-    margin-bottom: 10px;
+    
   }
   .team2 {
     width: 132px;
     height: 86px;
+    margin-left: 30px;
   }
+  .h2_p:hover{
+    cursor: pointer;
 }
-@media screen and (min-width:768px) {
-  
 }
 @media screen and (min-width: 1200px) {
   .team {
+    display: flex;
     font-family: "Playfair Display", serif;
+    background-color: $color-secondary-rgba-red;
     padding-top: 34px;
     padding-bottom: 50px;
     height: 461px;
     width: 100%;
-    background-color: $color-secondary-rgba-red;
+    flex-direction: row;
   }
+  .h2_p{
+      width: 417px;
+      color: $color-white;
+      text-align: right;
+  }
+  .h2_p:hover{
+    cursor: pointer;
+}
   .about-us {
     font-weight: 700;
     font-size: 28px;
-    line-height: 20px;
+    line-height: 30px;
     color: $color-white;
     margin-bottom: 10px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: right;
+    
   }
   .text-us {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 24px;
+      line-height: 30px;
     color:$color-white;
     letter-spacing: 0.03em;
+  }
+  .h:hover {
+    pointer-events: stroke;
   }
   .img2 {
     display: block;

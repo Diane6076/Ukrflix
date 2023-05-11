@@ -1,18 +1,33 @@
-.cards{
-    padding-top: 50px;
+
+.cards, .cards-holder{
     background-color: $color-secondary-rgba-red;
+    margin: 0;
+    padding: 0;
 }
 .card-title{
-    color:$color-black;
+    color:$color-white;
     margin-bottom: 10px;
 }
 .card{
-   padding-bottom: 30px;
    text-align: center;
 }
+@media screen and (min-width:300px) {
+    .card{
+        margin-bottom: 40px;
+        width: 50px;
+        height: 60px;
+    }
+    .card img {
+        max-width: 100px;
+        max-height: 160px;
+    }
+    
+ }
 @media screen and (min-width:480px) {
     .card{
         margin-bottom: 40px;
+        width: 50px;
+        height: 60px;
     }
     .cards{
         display: flex;
@@ -22,58 +37,63 @@
         text-align: center;
     }
     .card-title{
-        color:$color-black;
+        color:$color-white;
         margin-bottom: 10px;
     }
+    .card img {
+        max-width: 150px;
+        max-height: 160px;
+    }
+    
    
 }
 @media screen and (min-width:768px) {
     .card{
-        width: calc((100% - 12 * 15px) / 6);
+        margin-left: 30px;
     }
     .cards {
+        margin-left: 40px;
      background-color:$color-secondary-rgba-red ;     
     }
     .card-title{
+        color:$color-white;
         margin-bottom: 10px;
-        
+    }
+    .card img {
+        max-width: 150px;
+        max-height: 160px;
+    }
+    .cards{
+        display: flex;
+        color: $color-white;
+        background-color: $color-secondary-rgba-red;
+        justify-content: space-around;
+        text-align: center;
     }
 }
 @media screen and (min-width:1200px) {
+    .card{
+        //width: calc((100% - 12 * 15px) / 6);
+        width: 150px;
+        height: 160px;
+    }
+.card img {
+    padding-top: 20px;
+    max-width: 250px;
+    max-height: 260px;
+}
     .cards{
         background-color: $color-secondary-rgba-red;
     }
     .card-title{
-        background-color: $color-black;
+        color:$color-white;
         margin-bottom: 10px;
     }
+    .cards{
+        display: flex;
+        color: $color-white;
+        background-color: $color-secondary-rgba-red;
+        justify-content: space-around;
+        text-align: center;
+    }
 }
-// ul,a{
-//     list-style:none;
-//     text-decoration: none;
-// }
-// .header{
-//     display: flex;
-//     background-color: $color-secondary-red;
-// }
-// .header-list{
-//    display: flex;
-//    justify-content: space-around;
-// }
-// .footer{
-//     display: flex;
-//     background-color: $color-secondary-red;
-// }
-// .logo-f-box{
-//     text-decoration: double;
-//     text-align: center;
-// }
-// .footer-list{
-//     justify-content: space-around;
-// }
-// .socials{
-//     text-align: center;
-// }
-// .socials-list{
-// justify-content: flex-end;
-// }

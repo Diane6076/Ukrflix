@@ -11,7 +11,10 @@
 .card{
    text-align: center;
 }
-@media screen and (min-width:300px) {
+.cards{
+   height: 800px;
+}
+@media screen and (min-width:320px) {
     .card{
         margin-bottom: 40px;
         width: 50px;
@@ -21,7 +24,15 @@
         max-width: 100px;
         max-height: 160px;
     }
-    
+    // .cards{
+    //     display: flex;
+    //     color: $color-white;
+    //     background-color: $color-secondary-rgba-red;
+    //     justify-content: center;
+    //     flex-direction: column;
+    //     text-align: center;
+
+    // }
  }
 @media screen and (min-width:480px) {
     .card{
@@ -35,6 +46,7 @@
         background-color: $color-secondary-rgba-red;
         justify-content: space-around;
         text-align: center;
+        height: 300px;
     }
     .card-title{
         color:$color-white;
@@ -45,14 +57,14 @@
         max-height: 160px;
     }
     
-   
+
 }
 @media screen and (min-width:768px) {
     .card{
         margin-left: 30px;
     }
     .cards {
-        margin-left: 40px;
+     margin-left: 40px;
      background-color:$color-secondary-rgba-red ;     
     }
     .card-title{

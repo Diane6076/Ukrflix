@@ -1,5 +1,6 @@
 *,
-::before ::after {
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -20,6 +21,7 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   width: 100%;
+  height: 100%;
   margin: 0;
 }
 
@@ -158,29 +160,57 @@ a {
 }
 
 .ploshadka {
-<<<<<<< HEAD
   background-color: #230000;
+  padding: 20px 0;
 }
 
 .h2-p {
   color: #FFF;
+  width: 300px;
+}
+
+.about-movie {
+  font-size: 9px;
+  line-height: 15px;
+}
+
+.text-movie {
+  font-size: 7px;
+  line-height: 12px;
 }
 
 .all-film {
-  margin: 50px auto;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   width: 94%;
+  gap: 10px;
+  place-items: center;
+}
+
+.img1 {
+  display: block;
+}
+
+.ukr {
+  width: 100px;
+  height: 80px;
+}
+
+.moving {
+  width: 95px;
+  height: 63px;
+  margin-left: 20px;
 }
 
 @media screen and (min-width: 300px) {
@@ -191,10 +221,6 @@ a {
     background-color: #230000;
   }
   .all-film {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     gap: 2.5em;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -210,20 +236,20 @@ a {
     color: #FFF;
   }
   .about-movie {
-    font-size: 7px;
-    line-height: 14px;
+    font-size: 9px;
+    line-height: 15px;
   }
   .text-movie {
-    font-size: 5px;
-    line-height: 10px;
+    font-size: 7px;
+    line-height: 12px;
   }
   .ukr {
-    width: 115px;
-    height: 105px;
+    width: 125px;
+    height: 110px;
   }
   .moving {
-    width: 105px;
-    height: 86px;
+    width: 115px;
+    height: 96px;
     margin-left: 20px;
   }
   .h2-p:hover {
@@ -267,7 +293,6 @@ a {
   }
   .img1 {
     display: block;
-    float: right;
   }
   .ukr {
     width: 301px;
@@ -299,58 +324,6 @@ a {
     display: block;
     float: right;
   }
-=======
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: 461px;
-  width: 100;
-  background-color: #230000;
-}
-
-.all-film {
-  padding: 50px 200px;
-}
-
-.about-movie {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  color: #FFF;
-  margin-bottom: 10px;
-}
-
-.text-movie {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
-  color: #FFF;
-}
-
-.h:hover {
-  pointer-events: stroke;
-}
-
-.img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: right;
-}
-
-.ukr {
-  width: 365px;
-  height: 251px;
-}
-
-.moving {
-  width: 265px;
-  height: 203px;
-}
-
-@media screen and (min-width: 480px) {
->>>>>>> main
   .ukr {
     width: 169px;
     height: 154px;
@@ -364,7 +337,6 @@ a {
     cursor: pointer;
   }
 }
-<<<<<<< HEAD
 @media screen and (min-width: 1200px) {
   .ploshadka {
     display: -webkit-box;
@@ -388,7 +360,7 @@ a {
   .about-movie {
     font-weight: 700;
     font-size: 28px;
-    line-height: 30px;
+    line-height: 1.23;
     color: #FFF;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -422,31 +394,60 @@ a {
 }
 .team {
   background-color: #200000;
+  padding: 20px 0;
 }
 
 .h2_p {
   color: #FFF;
+  width: 300px;
+}
+
+.about-us {
+  font-size: 9px;
+  line-height: 15px;
+}
+
+.text-us {
+  font-size: 7px;
+  line-height: 12px;
 }
 
 .all-we {
-  margin: 50px auto;
+  margin: 60 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   width: 94%;
+  place-items: center;
+  gap: 10px;
+}
+
+.img2 {
+  display: block;
+}
+
+.team1 {
+  width: 100px;
+  height: 80px;
+}
+
+.team2 {
+  width: 95px;
+  height: 63px;
+  margin-left: 20px;
 }
 
 @media screen and (min-width: 300px) {
   .all-we {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     gap: 2.5em;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -471,25 +472,23 @@ a {
     cursor: pointer;
   }
   .about-us {
-    font-size: 7px;
-    line-height: 14px;
+    font-size: 9px;
+    line-height: 15px;
   }
   .text-us {
-    font-size: 5px;
-    line-height: 10px;
+    font-size: 7px;
+    line-height: 12px;
   }
   .team1 {
-    width: 115px;
-    height: 105px;
+    width: 125px;
+    height: 110px;
   }
   .team2 {
-    width: 105px;
-    height: 86px;
+    width: 115px;
+    height: 96px;
     margin-left: 20px;
   }
 }
-=======
->>>>>>> main
 @media screen and (min-width: 480px) {
   .team {
     display: -webkit-box;
@@ -777,9 +776,6 @@ a {
   height: 37px;
 }
 
-<<<<<<< HEAD
-.cards, .cards-holder {
-=======
 .new {
   background-color: #1e0101;
   padding: 30px 138px 30px 138px;
@@ -881,9 +877,7 @@ a {
   }
 }
 
-.cards {
-  padding-top: 50px;
->>>>>>> main
+.cards, .cards-holder {
   background-color: #200000;
   margin: 0;
   padding: 0;
@@ -898,7 +892,11 @@ a {
   text-align: center;
 }
 
-@media screen and (min-width: 300px) {
+.cards {
+  height: 800px;
+}
+
+@media screen and (min-width: 320px) {
   .card {
     margin-bottom: 40px;
     width: 50px;
@@ -924,6 +922,7 @@ a {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     text-align: center;
+    height: 300px;
   }
   .card-title {
     color: #FFF;

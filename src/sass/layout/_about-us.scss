@@ -1,21 +1,45 @@
 .team{
   background-color: $color-secondary-rgba-red;
+  padding: 20px 0;
 }
 .h2_p{
   color: $color-white;
+  width: 300px;
+}
+.about-us{
+   font-size: 9px;
+        line-height: 15px;
+}
+.text-us{
+     font-size: 7px;
+     line-height: 12px;
 }
 
 .all-we {
-  margin: 50px auto;
+  margin: 60 auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: nowrap;
   width: 94%;
+  place-items: center;
+  gap: 10px;
+}
+.img2{
+  display: block;
+}
+.team1 {
+  width: 100px;
+  height: 80px;
+}
+.team2 {
+  width: 95px;
+  height: 63px;
+  margin-left: 20px;
 }
 
 @media screen and (min-width:300px) {
   .all-we{
-    flex-direction: column;
     gap: 2.5em;
     justify-content: center;
     place-items: center;
@@ -37,20 +61,20 @@
     cursor: pointer;
 }
   .about-us{
-    font-size: 7px;
-    line-height: 14px;
+    font-size: 9px;
+    line-height: 15px;
   }
   .text-us{
-    font-size: 5px;
-    line-height: 10px;
+    font-size: 7px;
+    line-height: 12px;
   }
   .team1 {
-    width: 115px;
-    height: 105px;
+    width: 125px;
+    height: 110px;
   }
   .team2 {
-    width: 105px;
-    height: 86px;
+    width: 115px;
+    height: 96px;
     margin-left: 20px;
   }
 }
@@ -101,7 +125,6 @@
 @media screen and (min-width:768px) {
   .all-we{
     flex-direction: row;
-
   }
   .team {
     display: flex;

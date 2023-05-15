@@ -160,6 +160,9 @@ a {
 }
 
 .ploshadka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #230000;
   padding: 20px 0;
 }
@@ -167,6 +170,10 @@ a {
 .h2-p {
   color: #FFF;
   width: 300px;
+}
+
+.h2-p:hover {
+  cursor: pointer;
 }
 
 .about-movie {
@@ -393,6 +400,9 @@ a {
   }
 }
 .team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #200000;
   padding: 20px 0;
 }
@@ -400,6 +410,10 @@ a {
 .h2_p {
   color: #FFF;
   width: 300px;
+}
+
+.h2_p:hover {
+  cursor: pointer;
 }
 
 .about-us {
@@ -970,35 +984,73 @@ a {
   padding: 0;
 }
 
+.cards-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
 .card-title {
   color: #FFF;
   margin-bottom: 10px;
 }
 
 .card {
+  margin-bottom: 40px;
   text-align: center;
 }
 
 .cards {
-  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
-@media screen and (min-width: 320px) {
-  .card {
-    margin-bottom: 40px;
-    width: 50px;
-    height: 60px;
-  }
-  .card img {
-    max-width: 100px;
-    max-height: 160px;
-  }
+.btn {
+  font-size: 14px;
 }
+
+.card img {
+  max-width: 140px;
+  max-height: 110px;
+}
+
+.btn-info {
+  background-color: #FFF;
+  width: 100px;
+  height: 35px;
+}
+
 @media screen and (min-width: 480px) {
+  .cards-holder {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .card {
     margin-bottom: 40px;
-    width: 50px;
-    height: 60px;
   }
   .cards {
     display: -webkit-box;
@@ -1006,27 +1058,22 @@ a {
     display: flex;
     color: #FFF;
     background-color: #200000;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
     text-align: center;
-    height: 300px;
   }
   .card-title {
     color: #FFF;
     margin-bottom: 10px;
   }
   .card img {
-    max-width: 150px;
+    max-width: 180px;
     max-height: 160px;
   }
 }
 @media screen and (min-width: 768px) {
-  .card {
-    margin-left: 30px;
-  }
-  .cards {
-    margin-left: 40px;
-    background-color: #200000;
+  .cards-holder {
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .card-title {
     color: #FFF;
@@ -1045,20 +1092,22 @@ a {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     text-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
-  .card {
-    width: 150px;
-    height: 160px;
+  .cards-holder {
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .card img {
     padding-top: 20px;
     max-width: 250px;
     max-height: 260px;
-  }
-  .cards {
-    background-color: #200000;
   }
   .card-title {
     color: #FFF;

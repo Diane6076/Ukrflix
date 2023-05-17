@@ -315,3 +315,177 @@
   //     }
   
   // }
+    .img1{
+        display: block;
+        float: right;
+    }
+    .ukr {
+        width: 169px;
+        height: 154px;
+        margin-left: 30px;
+      }
+      .moving{
+           width: 175px;
+           height: 109px;
+    }
+    .h2-p:hover{
+        cursor: pointer;
+    
+    }
+// }
+  @media screen and (min-width: 1200px) {
+    .ploshadka {
+      display: flex;
+      font-family: "Playfair Display", serif;
+      background-color: $color-secondary-red;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      height: 461px;
+      width: 100%;
+      flex-direction: column;
+    }
+    .h2-p{
+        color: $color-white;
+        text-align: left;
+    }
+    .all-film {
+     
+    }
+    .about-movie {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.23;
+      color: $color-white;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    .text-movie {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $color-white;
+    }
+    .h:hover {
+      pointer-events: stroke;
+    }
+    .img1 {
+      display: block;
+      float: right;
+    }
+    .ukr {
+      width: 365px;
+      height: 251px;
+      margin-left: 35px;
+    }
+    .moving {
+      width: 265px;
+      height: 203px;
+    }
+    .h2-p:hover{
+        cursor: pointer;
+    
+    }
+}
+// .ploshadka{
+//     padding-top: 50px;
+//     padding-bottom: 50px;
+//     height: 461px;
+//     width:100;
+//     background-color:$color-rgba-red ;
+    
+// }
+// .all-film{
+//     padding: 50px 200px;
+// }
+// .about-movie{
+//     font-family: 'Playfair Display', serif;
+//     font-weight: 700;
+//     font-size: 28px;
+//     line-height: 20px;
+//     color: $color-white;
+//     margin-bottom: 10px;
+// }
+// .text-movie{
+//     font-family: 'Playfair Display', serif;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 25px;
+//     color: $color-white;
+  
+// }
+// .h:hover{
+//     pointer-events:stroke;
+// }
+
+// // @keyframes h{
+// //     0%{
+// //         margin-bottom: -20%;
+// //     }
+// //     30%{
+// //        letter-spacing: 20px;
+// //        margin-bottom: -20%;
+// //     }
+// //     85%{
+// //         letter-spacing: 5px;
+// //         margin-bottom: -20%;
+// //      }
+
+// // }
+// .img{
+//     display: flex;  
+//     float: right;
+// }
+// .ukr{
+//     width: 365px;
+//     height: 251px;
+// }
+// .moving{
+//     width: 265px;
+//     height: 203px;
+    
+// }
+// @media screen and (min-width:480px) {
+//     .all-film {
+      
+//     }
+//     .ukr{
+//         width:169px ;
+//         height: 154px; ;
+//     }
+//     .moving{
+//         width: 175px; ;
+//         height: 109px; ;
+//     }
+// }
+
+//  @media screen and (min-width:768px) {
+//     .all-film {
+    
+// // }
+// // @media screen and (min-width:480px) {
+// //     .all-film {
+      
+// //     }
+// //     .ukr{
+// //         width:169px ;
+// //         height: 154px; ;
+// //     }
+// //     .moving{
+// //         width: 175px; ;
+// //         height: 109px; ;
+// //     }
+// // }
+
+// //  @media screen and (min-width:768px) {
+// //     .all-film {
+    
+// //     }
+// // }
+
+// //   @media screen and (min-width:1200px) {
+// //     .all-film {
+     
+//     }
+
+// }

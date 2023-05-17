@@ -1244,10 +1244,11 @@ a {
         justify-content: space-around;
     text-align: center;
   }
-}/*# sourceMappingURL=main.css.map */g-top: 20px;
+}/*# sourceMappingURL=main.css.map */
+    /* g-top: 20px;
     max-width: 250px;
     max-height: 260px;
-  }
+  } */
   .card-title {
     color: #FFF;
     margin-bottom: 10px;
@@ -1262,4 +1263,4 @@ a {
         justify-content: space-around;
     text-align: center;
   }
-}/*# sourceMappingURL=main.css.map */
+/* }# sourceMappingURL=main.css.map */

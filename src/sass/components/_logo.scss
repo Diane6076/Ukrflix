@@ -1,0 +1,95 @@
+// Лого в хедері
+
+.logo-h {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+    text-decoration: none;
+
+    color:$color-white;
+
+    &1 {
+        color:#0085FF;
+    }
+
+    &2 {
+        color: #fbff04;
+    }
+
+    // Ховер хедер
+
+    &:hover {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
+
+    &:hover > &1 {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
+
+    &:hover > &2 {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
+}
+
+// Лого в футері
+
+.logo-f {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    color: $color-white;
+    display: inline;
+    text-decoration: none;
+
+    &1 {
+        color:#0085FF;
+    }
+
+    &2 {
+        color: #fbff04;
+    }
+
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+// Ховер лого футер
+
+    &:hover {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
+
+    &:hover > &1 {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;
+    }
+
+    &:hover > &2 {
+        color: rgba(159, 19, 19, 0.796);
+        font-weight: 900;   
+    }
+}
+
+// нормальна версія лого для хедера
+
+.logo-mobile {
+    display: block;
+    margin: 0 auto;
+
+    @media screen and (min-width: 481px) {
+        display: none;
+    }
+}
+
+.logo-desk {
+    @media screen and (max-width: 480px) {
+       display: none; 
+    }
+}

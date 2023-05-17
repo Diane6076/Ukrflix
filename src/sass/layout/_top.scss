@@ -1,0 +1,138 @@
+// body {
+//     height: auto;
+// }
+
+.cards,.cards-holder{
+    background-color: $color-secondary-rgba-red;
+    margin: 0;
+    padding: 0;
+}
+.cards-holder {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+.card-title{
+    color:$color-white;
+    margin-bottom: 10px;
+}
+.card{
+    margin-bottom: 40px;
+   text-align: center;
+}
+.cards{
+   display: flex;
+   justify-content: center;
+   place-items: center;
+   flex-direction: column;
+   height: fit-content;
+}
+.btn{
+    font-size: 14px;
+}
+.card img {
+    max-width: 140px;
+    max-height: 110px;
+}
+.btn-info{
+  background-color: $color-white;
+    width: 100px;
+    height: 35px;
+}
+
+// @media screen and (min-width:320px) {
+//     .cards-holder{
+//         height:auto;
+//         padding-top: 20px;
+//         padding-bottom: 20px;
+//     }
+//     .card{
+//         margin-bottom: 40px;
+//     }
+//     .card img {
+//         max-width: 140px;
+//         max-height: 110px;
+//     }
+//     .btn-info{
+//       background-color: $color-white;
+//         width: 100px;
+//         height: 35px;
+//     }
+//  }
+@media screen and (min-width:480px) {
+        .cards-holder{
+            height:auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+    }
+    .card{
+        margin-bottom: 40px;
+    }
+    .cards{
+        display: flex;
+        color: $color-white;
+        background-color: $color-secondary-rgba-red;
+        text-align: center;
+    }
+    .card-title{
+        color:$color-white;
+        margin-bottom: 10px;
+    }
+    .card img {
+        max-width: 180px;
+        max-height: 160px;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .cards-holder{
+        height: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+    .card-title{
+        color:$color-white;
+        margin-bottom: 10px;
+    }
+    .card img {
+        max-width: 150px;
+        max-height: 160px;
+    }
+    .cards{
+        display: flex;
+        color: $color-white;
+        background-color: $color-secondary-rgba-red;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: row;  
+
+    }
+}
+@media screen and (min-width:1200px) {
+    .cards-holder{
+        height: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+.card img {
+    padding-top: 20px;
+    max-width: 250px;
+    max-height: 260px;
+}
+    .card-title{
+        color:$color-white;
+        margin-bottom: 10px;
+    }
+    .cards{
+        display: flex;
+        color: $color-white;
+        background-color: $color-secondary-rgba-red;
+        justify-content: space-around;
+        text-align: center;
+    }
+}

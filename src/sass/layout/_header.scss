@@ -1,0 +1,38 @@
+.header {
+    background-color: $color-secondary-red;
+    // box-shadow: -10px 0px 5px black;
+    margin: 0;
+  
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 76px 8px 95px;
+      margin-bottom: 0;
+  
+          @media (max-width: 480px) {
+            padding: 5px 27px;
+      }
+  
+    }
+  
+  //   &-item {
+  
+  //   }
+  
+    &-link {
+      font-size: 24px;
+      line-height: 35px;
+      text-decoration: none;
+  
+      color: $color-white;
+  
+      @media (max-width: 480px) {
+  
+      }
+    }
+  
+    &-link:hover {
+      font-weight: 700;
+    }
+  }

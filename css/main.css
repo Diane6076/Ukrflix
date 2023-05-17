@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+::before,
+::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10,6 +10,28 @@ h2,
 h3,
 h4,
 h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -33,6 +55,27 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  border: none;
+  padding: 10px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 
 .logo-h {
@@ -344,6 +387,81 @@ a {
     cursor: pointer;
   }
 }
+@media screen and (min-width: 1200px) {
+  .ploshadka {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Playfair Display", serif;
+    background-color: #330000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 461px;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .h2-p {
+    color: #FFF;
+    text-align: left;
+  }
+  .about-movie {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.23;
+    color: #FFF;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .text-movie {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+  }
+  .h:hover {
+    pointer-events: stroke;
+  }
+  .img1 {
+    display: block;
+    float: right;
+  }
+  .ukr {
+    width: 365px;
+    height: 251px;
+    margin-left: 35px;
+  }
+  .moving {
+    width: 265px;
+    height: 203px;
+  }
+  .h2-p:hover {
+    cursor: pointer;
+  }
+}
+.img1 {
+  display: block;
+  float: right;
+}
+
+.ukr {
+  width: 169px;
+  height: 154px;
+  margin-left: 30px;
+}
+
+.moving {
+  width: 175px;
+  height: 109px;
+}
+
+.h2-p:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1200px) {
   .ploshadka {
     display: -webkit-box;
@@ -1245,22 +1363,3 @@ a {
     text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */
-    /* g-top: 20px;
-    max-width: 250px;
-    max-height: 260px;
-  } */
-  .card-title {
-    color: #FFF;
-    margin-bottom: 10px;
-  }
-  .cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: #FFF;
-    background-color: #200000;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    text-align: center;
-  }
-/* }# sourceMappingURL=main.css.map */

@@ -831,15 +831,16 @@ a {
   font-weight: 400;
   color: #757575;
   margin-top: 15px;
+  margin-bottom: 30px;
 }
 .cards-item .btnreview {
-  margin-top: 52px;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
   color: white;
-  background-color: #0057FF;
+  background-color: darkred;
   border-radius: 15px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
@@ -930,6 +931,7 @@ a {
   padding-left: 10px;
 }
 .popup .popup-content .popup-close {
+  text-decoration: none;
   position: absolute;
   right: 10px;
   top: 10px;
@@ -944,13 +946,14 @@ a {
   top: 5%;
 }
 .popup .popup-content .send {
+  text-decoration: none;
   margin-top: 52px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
   color: white;
-  background-color: #0057FF;
+  background-color: darkred;
   border-radius: 15px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
@@ -1116,6 +1119,159 @@ a {
   height: 37px;
 }
 
+.films, .filmssection {
+  background-color: #200000;
+  margin: 0;
+  padding: 0;
+}
+
+.films {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.filmssection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.film {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.film .film img {
+  max-width: 140px;
+  max-height: 110px;
+}
+.film .filmstitle {
+  margin-top: 10px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+.film .filmsbtn {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: white;
+  background-color: darkred;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  border: none;
+  padding: 5px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+  .filmssection {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .film {
+    margin-bottom: 40px;
+  }
+  .films {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #FFF;
+    background-color: #200000;
+    text-align: center;
+  }
+  .filmstitle {
+    color: #FFF;
+    margin-bottom: 10px;
+  }
+  .film img {
+    max-width: 180px;
+    max-height: 160px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .filmssection {
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .filmstitle {
+    color: #FFF;
+    margin-bottom: 10px;
+  }
+  .film img {
+    max-width: 150px;
+    max-height: 160px;
+  }
+  .films {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #FFF;
+    background-color: #200000;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filmssection {
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .film img {
+    padding-top: 20px;
+    max-width: 250px;
+    max-height: 260px;
+  }
+  .filmstitle {
+    color: #FFF;
+    margin-bottom: 10px;
+  }
+  .films {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #FFF;
+    background-color: #200000;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+  }
+}
 .new {
   background-color: #1e0101;
   padding: 30px 138px 30px 138px;

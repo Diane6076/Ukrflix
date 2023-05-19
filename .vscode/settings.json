@@ -11,7 +11,14 @@
         "savePath": "/css"
       }
     ],
+<<<<<<< HEAD
+    "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
+  }
+=======
     "liveSassCompile.settings.excludeList": ["/node_modules/", "/.vscode"],
     "liveSassCompile.settings.generateMap": true,
     "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
 }
+>>>>>>> 5854de69d9639f1b76d94207d231c48b7a8b7a54

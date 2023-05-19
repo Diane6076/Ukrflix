@@ -65,15 +65,16 @@
         font-weight: 400;
         color: #757575;
         margin-top: 15px;
+        margin-bottom: 30px;
     }
     .btnreview{
-        margin-top: 52px;
+        text-decoration: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.06em;
         color:white;
-        background-color: #0057FF;
+        background-color: darkred;
         border-radius: 15px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
         border: none;
@@ -147,6 +148,7 @@
             padding-left: 10px;
         }
         .popup-close{
+            text-decoration: none;
             position: absolute;
             right: 10px;
             top: 10px;
@@ -161,13 +163,14 @@
             top: calc(100%/20);
         }
         .send{
+            text-decoration: none;
             margin-top: 52px;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.9;
             letter-spacing: 0.06em;
             color:white;
-            background-color: #0057FF;
+            background-color: darkred;
             border-radius: 15px;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
             border: none;

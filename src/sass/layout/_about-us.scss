@@ -124,7 +124,8 @@
   .img2{
     display: block;
     float: left;
-  }
+  }}
+
   @media screen and (min-width:300px) {
     .all-we{
       gap: 2.5em;
@@ -169,9 +170,7 @@
     height: 86px;
     margin-left: 30px;
   }
-//   .h2_p:hover{
-//     cursor: pointer;
-// }
+
 }
 @media screen and (min-width: 1200px) {
   .team {
@@ -191,12 +190,8 @@
       width: 280px;
       color: $color-white;
     }
-    .h2_p:hover{
-      cursor: pointer;
   }
-//   .h2_p:hover{
-//     cursor: pointer;
-// }
+
   .about-us {
     font-weight: 700;
     font-size: 28px;
@@ -244,15 +239,12 @@
         width: 400px;
         color: $color-white;
     }
-    .h2_p:hover{
-      cursor: pointer;
-  }
-  // .h:hover {
-  //   pointer-events: stroke;
-  // }
+ 
+ 
   .img2 {
     display: block;
     float: left;
+  }
     .text-us {
       font-size: 9px;
       line-height: 17px;
@@ -297,11 +289,8 @@
       width: 132px;
       height: 86px;
       margin-left: 30px;
-    }
-    .h2_p:hover{
-      cursor: pointer;
-  }
-  }
+    }}
+
   @media screen and (min-width: 1200px) {
     .team {
       display: flex;
@@ -318,9 +307,7 @@
         color: $color-white;
         text-align: right;
     }
-    .h2_p:hover{
-      cursor: pointer;
-  }
+   
     .about-us {
       font-weight: 700;
       font-size: 28px;
@@ -355,69 +342,4 @@
       height: 203px;
       margin-left: 35px;
     }
-  }
-  // .team{
-  //     padding-top: 34px;
-  //     padding-bottom: 50px;
-  //     height: 461px;
-  //     width: 100%;
-  //     background-color:$color-secondary-rgba-red;
-     
-  // }
-  // .all-we{
-  //   padding: 50px 200px;
-  // }
-  // .about-us{
-  //     font-family: 'Playfair Display', serif;
-  //     font-weight: 700;
-  //     font-size: 28px;
-  //     line-height: 20px;
-  //     color: $color-white;
-  //     margin-bottom: 10px;
-  // }
-  // .text-us{
-  //     font-family: 'Playfair Display', serif;
-  //     font-weight: 400;
-  //     font-size: 14px;
-  //     line-height: 25px;
-  //     color: $color-white;
-  // }
-  // .img1{
-  //   display: flex;  
-  //   float: right;
-  //   justify-content: flex-end;
-  // }
-  // .team1{
-  //     width: 365px;
-  //     height: 251px;
-  // }
-  // .team2{
-  //     width: 265px;
-  //     height: 203px;
-  // }
-  // @media screen and (min-width:480px) {
-  //     .team {
-       
-  //     }
-  //     .team1{
-  //      width: 181px;
-  //      height: 124px; ;
-  //     }
-  //     .team2{
-  //     width: 132px; ;
-  //     height: 86px;
-  //     }
-  // }
-  
-  //  @media screen and (min-width:768px) {
-  //     .team {
-       
-  //     }
-  // }
-  
-  //   @media screen and (min-width:1200px) {
-  //     .team {
-       
-  //     }
-  
-  // }
+  } 

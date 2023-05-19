@@ -233,34 +233,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #230000;
-  padding: 20px 0;
-}
-
-.h2-p {
-  color: #FFF;
-  width: 300px;
-}
-
-.h2-p:hover {
-  cursor: pointer;
-}
-
-.about-movie {
-  font-size: 9px;
-  line-height: 15px;
-}
-
-.text-movie {
-  font-size: 7px;
-  line-height: 12px;
-}
-
-.all-film {
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -290,37 +262,19 @@ a {
   margin-left: 20px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 300px) {
   .ploshadka {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     background-color: #230000;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
-  .about-movie {
-    color: #FFF;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: left;
-    margin-bottom: 10px;
-  }
-  .h2-p {
-    width: 417px;
-    color: #FFF;
-  }
-  .text-movie {
-    color: #FFF;
-    font-size: 9px;
-    line-height: 17px;
-    letter-spacing: 0.03em;
-    font-weight: 400;
+  .all-film {
+    gap: 2.5em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    place-items: center;
   }
   .img1 {
     display: block;
@@ -347,9 +301,6 @@ a {
     height: 96px;
     margin-left: 20px;
   }
-  .h2-p:hover {
-    cursor: pointer;
-  }
 }
 @media screen and (min-width: 480px) {
   .ploshadka {
@@ -375,9 +326,6 @@ a {
   .h2-p {
     width: 417px;
     color: #FFF;
-  }
-  .h2-p:hover {
-    cursor: pointer;
   }
   .text-movie {
     color: #FFF;
@@ -428,9 +376,6 @@ a {
     width: 175px;
     height: 109px;
   }
-  .h2-p:hover {
-    cursor: pointer;
-  }
 }
 @media screen and (min-width: 1200px) {
   .ploshadka {
@@ -466,80 +411,6 @@ a {
     font-size: 24px;
     line-height: 30px;
     color: #FFF;
-  }
-  .h:hover {
-    pointer-events: stroke;
-  }
-  .img1 {
-    display: block;
-    float: right;
-  }
-  .ukr {
-    width: 365px;
-    height: 251px;
-    margin-left: 35px;
-  }
-  .moving {
-    width: 265px;
-    height: 203px;
-  }
-  .h2-p:hover {
-    cursor: pointer;
-  }
-}
-.img1 {
-  display: block;
-  float: right;
-}
-
-.ukr {
-  width: 169px;
-  height: 154px;
-  margin-left: 30px;
-}
-
-.moving {
-  width: 175px;
-  height: 109px;
-}
-
-@media screen and (min-width: 1200px) {
-  .ploshadka {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-family: "Playfair Display", serif;
-    background-color: #330000;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 461px;
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .h2-p {
-    color: #FFF;
-    text-align: left;
-  }
-  .about-movie {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.23;
-    color: #FFF;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    text-align: left;
-  }
-  .text-movie {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    color: #FFF;
-  }
-  .h:hover {
-    pointer-events: stroke;
   }
   .img1 {
     display: block;
@@ -926,9 +797,6 @@ a {
     line-height: 30px;
     color: #FFF;
     letter-spacing: 0.03em;
-  }
-  .h:hover {
-    pointer-events: stroke;
   }
   .img2 {
     display: block;

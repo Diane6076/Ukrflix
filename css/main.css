@@ -34,6 +34,7 @@ a {
 }
 
 .logo-h {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 69px;
@@ -61,6 +62,7 @@ a {
 }
 
 .logo-f {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 69px;
@@ -128,15 +130,11 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 8px 76px 8px 95px;
+  padding: 5px 27px;
   margin-bottom: 0;
 }
-@media (max-width: 480px) {
-  .header-list {
-    padding: 5px 27px;
-  }
-}
 .header-link {
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 35px;
   text-decoration: none;
@@ -144,6 +142,11 @@ a {
 }
 .header-link:hover {
   font-weight: 700;
+}
+@media (min-width: 480px) {
+  .header-list {
+    padding: 8px 76px 8px;
+  }
 }
 
 .herobtn {
@@ -158,7 +161,6 @@ a {
 }
 
 .ploshadka {
-<<<<<<< HEAD
   background-color: #230000;
 }
 
@@ -299,58 +301,6 @@ a {
     display: block;
     float: right;
   }
-=======
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: 461px;
-  width: 100;
-  background-color: #230000;
-}
-
-.all-film {
-  padding: 50px 200px;
-}
-
-.about-movie {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  color: #FFF;
-  margin-bottom: 10px;
-}
-
-.text-movie {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
-  color: #FFF;
-}
-
-.h:hover {
-  pointer-events: stroke;
-}
-
-.img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: right;
-}
-
-.ukr {
-  width: 365px;
-  height: 251px;
-}
-
-.moving {
-  width: 265px;
-  height: 203px;
-}
-
-@media screen and (min-width: 480px) {
->>>>>>> main
   .ukr {
     width: 169px;
     height: 154px;
@@ -364,7 +314,6 @@ a {
     cursor: pointer;
   }
 }
-<<<<<<< HEAD
 @media screen and (min-width: 1200px) {
   .ploshadka {
     display: -webkit-box;
@@ -488,8 +437,6 @@ a {
     margin-left: 20px;
   }
 }
-=======
->>>>>>> main
 @media screen and (min-width: 480px) {
   .team {
     display: -webkit-box;
@@ -630,23 +577,23 @@ a {
 }
 .footer {
   background-color: #160000;
-  padding: 0 237px 50px 138px;
+  padding: 0 28px 10px 28px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .footer {
-    padding: 0 28px 10px 28px;
+    padding: 0 138px 50px;
   }
 }
 .footer-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -654,12 +601,22 @@ a {
   margin: 0;
   padding: 0;
 }
-.footer-item {
-  display: inline;
+@media screen and (min-width: 480px) {
+  .footer-list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
 }
-@media screen and (max-width: 480px) {
+.footer-item {
+  display: block;
+}
+@media screen and (min-width: 480px) {
   .footer-item {
-    display: block;
+    display: inline;
   }
 }
 .footer-link {
@@ -683,19 +640,23 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .footer-flex {
-    -webkit-box-pack: baseline;
-        -ms-flex-pack: baseline;
-            justify-content: baseline;
-    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 .footer-tips {
@@ -708,10 +669,8 @@ a {
   margin: 0;
 }
 
-@media screen and (max-width: 480px) {
-  .socials {
-    margin-top: 18px;
-  }
+.socials {
+  margin-top: 18px;
 }
 .socials-text {
   font-family: "Playfair Display", serif;
@@ -719,30 +678,35 @@ a {
   font-size: 26px;
   line-height: 35px;
   color: #FFF;
-  margin-bottom: 32px;
+  margin-bottom: 7px;
+  text-align: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .socials-text {
-    margin-bottom: 7px;
-    text-align: center;
+    margin-bottom: 32px;
+    text-align: left;
   }
 }
 .socials-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 35px;
+  gap: 39px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 19px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .socials-list {
-    gap: 39px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 19px;
+    gap: 35px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-bottom: 0;
   }
 }
 .socials-item {
@@ -777,60 +741,43 @@ a {
   height: 37px;
 }
 
-<<<<<<< HEAD
-.cards, .cards-holder {
-=======
 .new {
   background-color: #1e0101;
-  padding: 30px 138px 30px 138px;
-}
-@media screen and (max-width: 480px) {
-  .new {
-    padding: 30px 20px 30px 20px;
-  }
+  padding: 30px 20px;
 }
 .new-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 35px;
   text-align: center;
+  margin-bottom: 15px;
   color: #FFF;
 }
 .new-koloda {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
-  padding-top: 15px;
-}
-@media screen and (max-width: 480px) {
-  .new-koloda {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-.new-card {
-  background-color: #330000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 15px;
+  gap: 20px;
 }
-@media screen and (max-width: 480px) {
-  .new-card {
-    width: 90%;
-  }
+.new-card {
+  background-color: #330000;
+  border-radius: 15px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1px;
+      -ms-flex: 1px 1px 0px;
+          flex: 1px 1px 0px;
 }
 .new-movie-title {
   font-family: "Roboto", sans-serif;
@@ -839,51 +786,78 @@ a {
   font-size: 25px;
   line-height: 35px;
   text-align: center;
+  display: grid;
+  place-items: center;
   color: #FFF;
+  min-height: 105px;
 }
 .new-movie-desc {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  padding: 5px 0;
   color: #cecbcb;
 }
 .new-text {
-  padding: 0 10px 16px 10px;
-}
-@media screen and (max-width: 480px) {
-  .new-text {
-    padding: 0 30px 16px 30px;
-  }
+  padding: 0 20px 16px;
 }
 .new-button {
   background-color: #160000;
   border: none;
   border-radius: 20px;
-  padding: 5px 100px;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 10px;
+}
+.new-button-text {
+  font-family: "Roboto", sans-serif;
   color: #FFF;
 }
-@media screen and (max-width: 480px) {
-  .new-button {
-    padding: 10px 135px;
-  }
-}
 .new-img {
-  width: 300px;
-  height: 125px;
+  width: 100%;
+  height: 180px;
   border-radius: 15px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
+  .new {
+    padding: 30px 76px;
+  }
+  .new-title {
+    margin-bottom: 30px;
+  }
+  .new-koloda {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .new-card {
+    width: auto;
+  }
+  .new-movie-desc {
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 5px;
+  }
+  .new-movie-desc::-webkit-scrollbar {
+    width: 4px;
+  }
+  .new-movie-desc::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .new-movie-desc::-webkit-scrollbar-thumb {
+    background-color: #200000;
+    border-radius: 20px;
+  }
   .new-img {
-    width: 1000px;
-    height: 180px;
+    width: 100%;
+    height: 125px;
   }
 }
 
-.cards {
-  padding-top: 50px;
->>>>>>> main
+.cards, .cards-holder {
   background-color: #200000;
   margin: 0;
   padding: 0;

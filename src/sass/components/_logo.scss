@@ -1,6 +1,7 @@
 // Лого в хедері
 
 .logo-h {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 69px;
@@ -38,6 +39,7 @@
 // Лого в футері
 
 .logo-f {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 69px;
@@ -77,7 +79,7 @@
     }
 }
 
-// нормальна версія лого для хедера
+// мобільна і десктопна версія лого для хедера
 
 .logo-mobile {
     display: block;

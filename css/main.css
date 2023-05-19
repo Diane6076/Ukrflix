@@ -172,10 +172,6 @@ a {
   width: 300px;
 }
 
-.h2-p:hover {
-  cursor: pointer;
-}
-
 .about-movie {
   font-size: 9px;
   line-height: 15px;
@@ -259,9 +255,6 @@ a {
     height: 96px;
     margin-left: 20px;
   }
-  .h2-p:hover {
-    cursor: pointer;
-  }
 }
 @media screen and (min-width: 480px) {
   .ploshadka {
@@ -287,9 +280,6 @@ a {
   .h2-p {
     width: 417px;
     color: #FFF;
-  }
-  .h2-p:hover {
-    cursor: pointer;
   }
   .text-movie {
     color: #FFF;
@@ -339,9 +329,6 @@ a {
   .moving {
     width: 175px;
     height: 109px;
-  }
-  .h2-p:hover {
-    cursor: pointer;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -395,9 +382,6 @@ a {
     width: 265px;
     height: 203px;
   }
-  .h2-p:hover {
-    cursor: pointer;
-  }
 }
 .team {
   display: -webkit-box;
@@ -410,10 +394,6 @@ a {
 .h2_p {
   color: #FFF;
   width: 300px;
-}
-
-.h2_p:hover {
-  cursor: pointer;
 }
 
 .about-us {
@@ -482,9 +462,6 @@ a {
     width: 280px;
     color: #FFF;
   }
-  .h2_p:hover {
-    cursor: pointer;
-  }
   .about-us {
     font-size: 9px;
     line-height: 15px;
@@ -526,9 +503,6 @@ a {
   .h2_p {
     width: 400px;
     color: #FFF;
-  }
-  .h2_p:hover {
-    cursor: pointer;
   }
   .text-us {
     font-size: 9px;
@@ -579,9 +553,6 @@ a {
     height: 86px;
     margin-left: 30px;
   }
-  .h2_p:hover {
-    cursor: pointer;
-  }
 }
 @media screen and (min-width: 1200px) {
   .team {
@@ -604,9 +575,6 @@ a {
     color: #FFF;
     text-align: right;
   }
-  .h2_p:hover {
-    cursor: pointer;
-  }
   .about-us {
     font-weight: 700;
     font-size: 28px;
@@ -623,9 +591,6 @@ a {
     line-height: 30px;
     color: #FFF;
     letter-spacing: 0.03em;
-  }
-  .h:hover {
-    pointer-events: stroke;
   }
   .img2 {
     display: block;

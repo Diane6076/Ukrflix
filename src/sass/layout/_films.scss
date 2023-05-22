@@ -127,28 +127,29 @@
     }
 }
 
-// .popup{
-//     .text-popup{
-//         max-height: 400px;
-//         font-size: 50px;
-//         margin-bottom: 25px;
-//         overflow: auto;
-//     }
+.popup{
+    text-align: center;
+    .text-popup{
+        max-height: 400px;
+        font-size: 50px;
+        margin-bottom: 25px;
+        overflow: auto;
+    }
 
-//     .link-popup{
-//         text-decoration: none;
-//         font-weight: 500;
-//         font-size: 25px;
-//         line-height: 1.9;
-//         letter-spacing: 0.06em;
-//         color: white;
-//         background-color: darkred;
-//         border-radius: 15px;
-//         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
-//         border: none;
-//         padding: 10px 24px;
-//         align-items: center;
-//         cursor: pointer;
-//     }
+    .link-popup{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+        color: white;
+        background-color: darkred;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+        border: none;
+        padding: 10px 24px;
+        align-items: center;
+        cursor: pointer;
+    }
     
-// }
+}

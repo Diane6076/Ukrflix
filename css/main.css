@@ -1518,9 +1518,13 @@ a {
 }
 
 .btn-info {
-  background-color: #FFF;
-  width: 100px;
-  height: 35px;
+  background-color: #160000;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 10px;
+  color: #FFF;
 }
 
 @media screen and (min-width: 480px) {

@@ -118,15 +118,22 @@
         padding: 30px 10px;
     }
     .popup-content{
+        @media screen and (min-width: 1080px) {
+            &{
+                width: calc(100%/1.8);
+            }
+        }
         border-radius: 21px;
         background-color: #fff;
         color: #000;
-        width: calc(100%/1.8);
+        width: 100%;
         padding: 30px;
         position: relative;
         transition: all 1s ease 0s;
         opacity: 0;
         transform: translate(0px, -100%);
+
+        
 
         .input{
             font-size: 24px;

@@ -1,12 +1,12 @@
 .header {
   background-color: $color-secondary-red;
   margin: 0;
+  padding: 5px 27px;
 
   &-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 27px;
     margin-bottom: 0;
   }
 
@@ -23,7 +23,7 @@
   }
   
   @media (min-width: 480px) {
-    &-list {
+    .header {
       padding: 8px 76px 8px;
     }
   }

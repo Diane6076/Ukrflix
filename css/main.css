@@ -149,13 +149,13 @@ a {
   display: block;
   margin: 0 auto;
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 769px) {
   .logo-mobile {
     display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .logo-desk {
     display: none;
   }
@@ -164,6 +164,7 @@ a {
 .header {
   background-color: #330000;
   margin: 0;
+  padding: 5px 27px;
 }
 .header-list {
   display: -webkit-box;
@@ -175,7 +176,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 5px 27px;
   margin-bottom: 0;
 }
 .header-link {
@@ -189,7 +189,7 @@ a {
   font-weight: 700;
 }
 @media (min-width: 480px) {
-  .header-list {
+  .header .header {
     padding: 8px 76px 8px;
   }
 }
@@ -1049,7 +1049,7 @@ a {
   margin: 0;
   padding: 0;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .footer-list {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -1088,15 +1088,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: baseline;
-      -ms-flex-pack: baseline;
-          justify-content: baseline;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .footer-flex {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1116,11 +1113,10 @@ a {
   line-height: 30px;
   margin: 0;
 }
-
-.socials {
+.footer .socials {
   margin-top: 18px;
 }
-.socials-text {
+.footer .socials-text {
   font-family: "Playfair Display", serif;
   font-weight: 500;
   font-size: 26px;
@@ -1129,13 +1125,13 @@ a {
   margin-bottom: 7px;
   text-align: center;
 }
-@media screen and (min-width: 480px) {
-  .socials-text {
+@media screen and (min-width: 768px) {
+  .footer .socials-text {
     margin-bottom: 32px;
     text-align: left;
   }
 }
-.socials-list {
+.footer .socials-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1148,8 +1144,8 @@ a {
           justify-content: center;
   margin-bottom: 19px;
 }
-@media screen and (min-width: 480px) {
-  .socials-list {
+@media screen and (min-width: 768px) {
+  .footer .socials-list {
     gap: 35px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -1157,7 +1153,7 @@ a {
     margin-bottom: 0;
   }
 }
-.socials-item {
+.footer .socials-item {
   background-color: rgba(68, 36, 2, 0.8823529412);
   width: 64px;
   height: 64px;
@@ -1173,17 +1169,17 @@ a {
           justify-content: center;
   color: #fff;
 }
-.socials .insta {
+.footer .socials .insta {
   background: center no-repeat url(../src/img/insta.svg);
   width: 37px;
   height: 37px;
 }
-.socials .facebook {
+.footer .socials .facebook {
   background: center no-repeat url(../src/img/facebook.svg);
   width: 28px;
   height: 37px;
 }
-.socials .twitter {
+.footer .socials .twitter {
   background: center no-repeat url(../src/img/twit.svg);
   width: 37px;
   height: 37px;
@@ -1384,19 +1380,8 @@ a {
   color: #FFF;
 }
 .new-koloda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 .new-card {
@@ -1418,7 +1403,9 @@ a {
   display: grid;
   place-items: center;
   color: #FFF;
-  min-height: 105px;
+  height: 105px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .new-movie-desc {
   font-family: "Playfair Display", serif;
@@ -1455,10 +1442,7 @@ a {
     margin-bottom: 30px;
   }
   .new-koloda {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
   }
   .new-card {
     width: auto;
@@ -1483,6 +1467,11 @@ a {
   .new-img {
     width: 100%;
     height: 125px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .new-koloda {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

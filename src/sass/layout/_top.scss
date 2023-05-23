@@ -20,6 +20,7 @@
 .card-title{
     color:$color-white;
     margin-bottom: 10px;
+    margin-top: 12px;
 }
 .card{
     margin-bottom: 40px;
@@ -40,43 +41,31 @@
     max-height: 110px;
 }
 .btn-info{
-//   background-color: $color-white;
-//     width: 100px;
-//     height: 35px;
-background-color: $color-reds;
-border: none;
-border-radius: 20px;
-padding: 10px 0;
-width: 100%;
+// background-color: $color-reds;
+// border: none;
+// border-radius: 20px;
+// padding: 10px 0;
+// width: 100%;
+// margin-top: 10px;
+// color: $color-white;
 margin-top: 10px;
-color: $color-white;
+font-size: 16px;
+line-height: 1.9;
+color:$color-white;
+background-color: darkred;
+border-radius: 10px;
+padding: 12px 10px;
 }
 
-// @media screen and (min-width:320px) {
-//     .cards-holder{
-//         height:auto;
-//         padding-top: 20px;
-//         padding-bottom: 20px;
-//     }
-//     .card{
-//         margin-bottom: 40px;
-//     }
-//     .card img {
-//         max-width: 140px;
-//         max-height: 110px;
-//     }
-//     .btn-info{
-//       background-color: $color-white;
-//         width: 100px;
-//         height: 35px;
-//     }
-//  }
 @media screen and (min-width:480px) {
         .cards-holder{
             height:auto;
             padding-top: 20px;
             padding-bottom: 20px;
     }
+    // .card{
+    //     width: calc((100% - 4 * 15px) / 2);
+    // }
     .card{
         margin-bottom: 40px;
     }
@@ -102,6 +91,9 @@ color: $color-white;
         padding-top: 20px;
         padding-bottom: 20px;
 }
+// .card{
+//     width: calc((100% - 6 * 15px) / 3);
+// }
     .card-title{
         color:$color-white;
         margin-bottom: 10px;
@@ -126,6 +118,9 @@ color: $color-white;
         padding-top: 20px;
         padding-bottom: 20px;
 }
+// .card{
+//     width: calc((100% - 12 * 15px) / 6);
+// }
 .card img {
     padding-top: 20px;
     max-width: 250px;

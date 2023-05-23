@@ -26,9 +26,8 @@
     margin-bottom: 40px;
     text-align: center;
 
-    .film img {
+    img {
         max-width: 140px;
-        max-height: 110px;
     }
     .filmstitle{
         margin-top: 10px;
@@ -84,7 +83,7 @@
         height: 400px;
         padding-top: 20px;
         padding-bottom: 20px;
-}
+    }
     .filmstitle{
         color: $color-white;
         margin-bottom: 20px;
@@ -99,7 +98,8 @@
         background-color: $color-secondary-rgba-red;
         justify-content: space-around;
         text-align: center;
-        flex-direction: row;  
+        flex-direction: row; 
+        flex-wrap: w; 
 
     }
 }

@@ -140,79 +140,7 @@
     float: left;
   }}
 
-// @media screen and (min-width:768px) {
-//   .all-we{
-//     flex-direction: row;
-//   }
-//   .team {
-//     display: flex;
-//     background-color: $color-secondary-rgba-red;
-//     flex-direction: row;
-//   }
-//   .img2{
-//     display: block;
-//     float: left;
-//   }
-//   .team1 {
-//     width: 181px;
-//     height: 124px;
-    
-//   }
-//   .team2 {
-//     width: 132px;
-//     height: 86px;
-//     margin-left: 30px;
-//   }
 
-// }
-// @media screen and (min-width: 1200px) {
-//   .team {
-//     display: flex;
-//     font-family: "Playfair Display", serif;
-//     background-color: $color-secondary-rgba-red;
-//     padding-top: 34px;
-//     padding-bottom: 50px;
-//     height: 500px;
-//     width: 100%;
-//     flex-direction: row;
-//   }
-//   .h2_p{
-//       width: 417px;
-//     }
-//     .h2_p{
-//       width: 280px;
-//       color: $color-white;
-//     }
-//   }
-
-  .about-us {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 30px;
-    color: $color-white;
-    margin-bottom: 10px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: right;
-    
-    .about-us{
-      font-size: 9px;
-      line-height: 15px;
-    }
-    .text-us{
-      font-size: 7px;
-      line-height: 12px;
-    }
-    .team1 {
-      width: 125px;
-      height: 110px;
-    }
-    .team2 {
-      width: 115px;
-      height: 96px;
-      margin-left: 20px;
-    }
-  }
   @media screen and (min-width: 480px) {
     .team {
       display: flex;
@@ -334,3 +262,78 @@
       margin-left: 35px;
     }
   } 
+
+
+  // @media screen and (min-width:768px) {
+//   .all-we{
+//     flex-direction: row;
+//   }
+//   .team {
+//     display: flex;
+//     background-color: $color-secondary-rgba-red;
+//     flex-direction: row;
+//   }
+//   .img2{
+//     display: block;
+//     float: left;
+//   }
+//   .team1 {
+//     width: 181px;
+//     height: 124px;
+    
+//   }
+//   .team2 {
+//     width: 132px;
+//     height: 86px;
+//     margin-left: 30px;
+//   }
+
+// }
+// @media screen and (min-width: 1200px) {
+//   .team {
+//     display: flex;
+//     font-family: "Playfair Display", serif;
+//     background-color: $color-secondary-rgba-red;
+//     padding-top: 34px;
+//     padding-bottom: 50px;
+//     height: 500px;
+//     width: 100%;
+//     flex-direction: row;
+//   }
+//   .h2_p{
+//       width: 417px;
+//     }
+//     .h2_p{
+//       width: 280px;
+//       color: $color-white;
+//     }
+//   }
+
+  // .about-us {
+  //   font-weight: 700;
+  //   font-size: 28px;
+  //   line-height: 30px;
+  //   color: $color-white;
+  //   margin-bottom: 10px;
+  //   letter-spacing: 0.03em;
+  //   text-transform: uppercase;
+  //   text-align: right;
+    
+  //   .about-us{
+  //     font-size: 9px;
+  //     line-height: 15px;
+  //   }
+  //   .text-us{
+  //     font-size: 7px;
+  //     line-height: 12px;
+  //   }
+  //   .team1 {
+  //     width: 125px;
+  //     height: 110px;
+  //   }
+  //   .team2 {
+  //     width: 115px;
+  //     height: 96px;
+  //     margin-left: 20px;
+  //   }
+  // }

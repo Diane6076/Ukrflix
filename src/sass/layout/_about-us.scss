@@ -13,8 +13,8 @@
         line-height: 15px;
 }
 .text-us{
-     font-size: 7px;
-     line-height: 12px;
+     font-size: 5px;
+     line-height: 10px;
 }
 
 .all-we {
@@ -40,6 +40,55 @@
   margin-left: 20px;
 }
 
+// @media screen and (min-width:300px) {
+//   .all-we{
+//     gap: 2.5em;
+//     justify-content: center;
+//     place-items: center;
+//   }
+//   .team {
+//     display: flex;
+//     background-color: $color-secondary-rgba-red;
+//     padding: 20px 0;
+//   }
+//   .h2_p{
+//     color: $color-white;
+//     width: 300px;
+//   }
+  
+//   .about-us{
+//      font-size: 9px;
+//           line-height: 15px;
+//   }
+//   .text-us{
+//        font-size: 7px;
+//        line-height: 12px;
+//   }
+  
+//   .all-we {
+//     margin: 60 auto;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     flex-wrap: nowrap;
+//     width: 94%;
+//     place-items: center;
+//     gap: 10px;
+//   }
+//   .img2{
+//     display: block;
+//   }
+//   .team1 {
+//     width: 100px;
+//     height: 80px;
+//   }
+//   .team2 {
+//     width: 95px;
+//     height: 63px;
+//     margin-left: 20px;
+//   }
+// }
+
 @media screen and (min-width:300px) {
   .all-we{
     gap: 2.5em;
@@ -49,44 +98,17 @@
   .team {
     display: flex;
     background-color: $color-secondary-rgba-red;
-    padding: 20px 0;
-  }
-  .h2_p{
-    color: $color-white;
-    width: 300px;
-  }
-  
-  .about-us{
-     font-size: 9px;
-          line-height: 15px;
-  }
-  .text-us{
-       font-size: 7px;
-       line-height: 12px;
-  }
-  
-  .all-we {
-    margin: 60 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    width: 94%;
-    place-items: center;
-    gap: 10px;
   }
   .img2{
     display: block;
-  }
-  .team1 {
-    width: 100px;
-    height: 80px;
-  }
-  .team2 {
-    width: 95px;
-    height: 63px;
-    margin-left: 20px;
-  }
+    float: left;
+  
+}
+.team2 {
+  width: 272px;
+  height: 206px;
+
+}
 }
 @media screen and (min-width: 480px) {
   .team {
@@ -118,100 +140,7 @@
     float: left;
   }}
 
-  @media screen and (min-width:300px) {
-    .all-we{
-      gap: 2.5em;
-      justify-content: center;
-      place-items: center;
-    }
-    .team {
-      display: flex;
-      background-color: $color-secondary-rgba-red;
-    }
-    .img2{
-      display: block;
-      float: left;
-    
-  }
-  .team2 {
-    width: 272px;
-    height: 206px;
-  
-  }
-}
-@media screen and (min-width:768px) {
-  .all-we{
-    flex-direction: row;
-  }
-  .team {
-    display: flex;
-    background-color: $color-secondary-rgba-red;
-    flex-direction: row;
-  }
-  .img2{
-    display: block;
-    float: left;
-  }
-  .team1 {
-    width: 181px;
-    height: 124px;
-    
-  }
-  .team2 {
-    width: 132px;
-    height: 86px;
-    margin-left: 30px;
-  }
 
-}
-@media screen and (min-width: 1200px) {
-  .team {
-    display: flex;
-    font-family: "Playfair Display", serif;
-    background-color: $color-secondary-rgba-red;
-    padding-top: 34px;
-    padding-bottom: 50px;
-    height: 461px;
-    width: 100%;
-    flex-direction: row;
-  }
-  .h2_p{
-      width: 417px;
-    }
-    .h2_p{
-      width: 280px;
-      color: $color-white;
-    }
-  }
-
-  .about-us {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 30px;
-    color: $color-white;
-    margin-bottom: 10px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: right;
-    
-    .about-us{
-      font-size: 9px;
-      line-height: 15px;
-    }
-    .text-us{
-      font-size: 7px;
-      line-height: 12px;
-    }
-    .team1 {
-      width: 125px;
-      height: 110px;
-    }
-    .team2 {
-      width: 115px;
-      height: 96px;
-      margin-left: 20px;
-    }
-  }
   @media screen and (min-width: 480px) {
     .team {
       display: flex;
@@ -238,8 +167,8 @@
     float: left;
   }
     .text-us {
-      font-size: 9px;
-      line-height: 17px;
+      font-size: 6px;
+      line-height: 14px;
       letter-spacing: 0.03em;
       font-weight: 400;
     }
@@ -290,7 +219,7 @@
       background-color: $color-secondary-rgba-red;
       padding-top: 34px;
       padding-bottom: 50px;
-      height: 461px;
+      height: 510px;
       width: 100%;
       flex-direction: row;
     }
@@ -302,8 +231,8 @@
    
     .about-us {
       font-weight: 700;
-      font-size: 28px;
-      line-height: 30px;
+      font-size: 23px;
+      line-height: 27px;
       color: $color-white;
       margin-bottom: 10px;
       letter-spacing: 0.03em;
@@ -312,11 +241,11 @@
       
     }
     .text-us {
-      font-weight: 400;
-      font-size: 24px;
-        line-height: 30px;
-      color:$color-white;
       letter-spacing: 0.03em;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 23px;
+      color: $color-white;
     }
     
     .img2 {
@@ -333,3 +262,78 @@
       margin-left: 35px;
     }
   } 
+
+
+  // @media screen and (min-width:768px) {
+//   .all-we{
+//     flex-direction: row;
+//   }
+//   .team {
+//     display: flex;
+//     background-color: $color-secondary-rgba-red;
+//     flex-direction: row;
+//   }
+//   .img2{
+//     display: block;
+//     float: left;
+//   }
+//   .team1 {
+//     width: 181px;
+//     height: 124px;
+    
+//   }
+//   .team2 {
+//     width: 132px;
+//     height: 86px;
+//     margin-left: 30px;
+//   }
+
+// }
+// @media screen and (min-width: 1200px) {
+//   .team {
+//     display: flex;
+//     font-family: "Playfair Display", serif;
+//     background-color: $color-secondary-rgba-red;
+//     padding-top: 34px;
+//     padding-bottom: 50px;
+//     height: 500px;
+//     width: 100%;
+//     flex-direction: row;
+//   }
+//   .h2_p{
+//       width: 417px;
+//     }
+//     .h2_p{
+//       width: 280px;
+//       color: $color-white;
+//     }
+//   }
+
+  // .about-us {
+  //   font-weight: 700;
+  //   font-size: 28px;
+  //   line-height: 30px;
+  //   color: $color-white;
+  //   margin-bottom: 10px;
+  //   letter-spacing: 0.03em;
+  //   text-transform: uppercase;
+  //   text-align: right;
+    
+  //   .about-us{
+  //     font-size: 9px;
+  //     line-height: 15px;
+  //   }
+  //   .text-us{
+  //     font-size: 7px;
+  //     line-height: 12px;
+  //   }
+  //   .team1 {
+  //     width: 125px;
+  //     height: 110px;
+  //   }
+  //   .team2 {
+  //     width: 115px;
+  //     height: 96px;
+  //     margin-left: 20px;
+  //   }
+  // }

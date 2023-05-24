@@ -130,6 +130,7 @@
 .popup{
     text-align: center;
     .text-popup{
+        width: 60%;
         max-height: 400px;
         font-size: 50px;
         margin-bottom: 25px;
@@ -151,5 +152,12 @@
         align-items: center;
         cursor: pointer;
     }
-    
+    @media screen and (min-width:1080px) {
+        #photo{
+            top: 6%;
+            right: 4%;
+            max-height: 400px;
+            width: 35%;
+        }
+    }
 }

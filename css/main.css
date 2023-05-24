@@ -539,34 +539,6 @@ a {
     float: left;
   }
 }
-.about-us {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 30px;
-  color: #FFF;
-  margin-bottom: 10px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-align: right;
-}
-.about-us .about-us {
-  font-size: 9px;
-  line-height: 15px;
-}
-.about-us .text-us {
-  font-size: 7px;
-  line-height: 12px;
-}
-.about-us .team1 {
-  width: 125px;
-  height: 110px;
-}
-.about-us .team2 {
-  width: 115px;
-  height: 96px;
-  margin-left: 20px;
-}
-
 @media screen and (min-width: 480px) {
   .team {
     display: -webkit-box;

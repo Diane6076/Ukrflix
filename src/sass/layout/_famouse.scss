@@ -1,0 +1,237 @@
+// .img-wraper{
+//     padding-top: 20px;
+//       padding-bottom: 20px;
+//       height: auto;
+//       $margin-between-images: 20px;
+//     }
+
+
+.famous-text{
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+color:$color-white ;
+}
+
+.famouse{
+  // height: auto;
+}
+.foto{
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+// }
+// .all{
+//   display: flex;
+//   place-items: center;
+//   flex-direction: column;
+//   align-items: stretch;
+//   height: 1500px;
+// }
+// .img1{
+//       width: 200px;
+//       height: 220px;
+//     }
+//   .img2{
+//     width: 200px;
+//     height: 220px;
+//   }
+//   .img3{
+//     width: 200px;
+//     height: 220px;
+//   }
+//   .img4{
+//     width: 200px;
+//     height: 220px;
+//   }
+//   .img5{
+//     width: 200px;
+//     height: 220px;
+//   }
+//   .img6{
+//     width: 200px;
+//     height: 220px;
+//   }
+
+
+
+
+ @media screen and (min-width:480px) {
+  .famous-text{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+    color:$color-white ;
+    }
+    .all{
+      display: flex;
+    //   place-items: center;
+    // flex-direction: column;
+ 
+    }
+ .foto{
+  margin-bottom: 20px;
+//  }
+//     .img1{
+//       width: 200px;
+//       height: 150px;
+//     }
+//   .img2{
+//     width: 200px;
+//     height: 150px;
+//   }
+//   .img3{
+//     width: 200px;
+//     height: 150px;
+//   }
+//   .img4{
+//     width: 200px;
+//     height: 150px;
+//   }
+//   .img5{
+//     width: 200px;
+//     height: 150px;
+//   }
+//   .img6{
+//     width: 200px;
+//     height: 150px;
+//   }
+}
+
+}
+}
+ @media screen and (min-width:768px) {
+  .famous-text{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    text-align: center;
+    color:$color-white ;
+    }
+// .all{
+//   display: flex;
+
+// }
+// .foto{
+//   width: calc((100% - 12 * 15px) / 3);
+// }
+//     .img1{
+//       width: 400px;
+//       height: 360px;
+//     }
+//   .img2{
+//       width: 400px ;
+//       height: 360px ;
+//   }
+//   .img3{
+//       width: 400px;
+//       height: 360px;
+//   }
+//   .img4{
+//       width: 400px;
+//       height: 360px;
+//   }
+//   .img5{
+//       width: 400px;
+//       height: 360px;
+//   }
+//   .img6{
+//       width: 400px;
+//       height: 360px;
+//   }
+  
+  }
+
+@media screen and (min-width:1200px) {
+  .famous-text{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+    color:$color-white ;
+    }
+    .container {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(264px, 1fr)
+      ); /* Розтягує колонки відповідно до ширини екрану */
+      grid-template-rows: repeat(
+        auto-fit,
+        minmax(114px, 1fr)
+      ); /* Розтягує рядки відповідно до висоти екрану */
+    
+      gap: 15px 35px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "img1 img1 img2 img4"
+        "img1 img1 img3 img4"
+        "img5 img6 img6 img4";
+    
+      }
+      
+    .container li img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Заповнює контейнер зображенням */
+    }
+    
+   
+    .img1 {
+      grid-area: img1;
+    }
+    
+    .img2 {
+      grid-area: img2;
+    }
+    
+    .img3 {
+      grid-area: img3;
+    }
+    
+    .img4 {
+      grid-area: img4;
+    }
+    
+    .img5 {
+      grid-area: img5;
+    }
+    
+    .img6 {
+      grid-area: img6;
+    }
+    html,
+  body,
+  .container {
+    height: 100%;
+    margin: 0;
+  }
+    }
+   
+// .image-container {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     margin: 15px auto;
+//     max-width: 480px;
+//     padding: 0 10px;
+// }
+
+// .image-container img {
+//     width: calc(100% / 2 - 10px); 
+//     margin-bottom: 20px;
+// }
+
+// @media screen and (min-width: 320px) {
+//     .image-container img {
+//         width: 80%; 
+//     }
+// }
+
+// @media screen and (max-width: 480px) {
+// .image-container img {
+//         width: 80%; 
+//     }
+// }

@@ -223,8 +223,8 @@ a {
 }
 
 .text-movie {
-  font-size: 7px;
-  line-height: 12px;
+  font-size: 5px;
+  line-height: 10px;
 }
 
 .all-film {
@@ -328,8 +328,8 @@ a {
   }
   .text-movie {
     color: #FFF;
-    font-size: 9px;
-    line-height: 17px;
+    font-size: 7px;
+    line-height: 15px;
     letter-spacing: 0.03em;
     font-weight: 400;
   }
@@ -384,7 +384,7 @@ a {
     font-family: "Playfair Display", serif;
     padding-top: 50px;
     padding-bottom: 50px;
-    height: 461px;
+    height: 500px;
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -397,8 +397,8 @@ a {
   }
   .about-movie {
     font-weight: 700;
-    font-size: 28px;
-    line-height: 1.23;
+    font-size: 25px;
+    line-height: 1.03;
     color: #FFF;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -406,8 +406,8 @@ a {
   }
   .text-movie {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
     color: #FFF;
   }
   .img1 {
@@ -443,8 +443,8 @@ a {
 }
 
 .text-us {
-  font-size: 7px;
-  line-height: 12px;
+  font-size: 5px;
+  line-height: 10px;
 }
 
 .all-we {
@@ -494,49 +494,14 @@ a {
     display: -ms-flexbox;
     display: flex;
     background-color: #200000;
-    padding: 20px 0;
-  }
-  .h2_p {
-    color: #FFF;
-    width: 300px;
-  }
-  .about-us {
-    font-size: 9px;
-    line-height: 15px;
-  }
-  .text-us {
-    font-size: 7px;
-    line-height: 12px;
-  }
-  .all-we {
-    margin: 60 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    width: 94%;
-    place-items: center;
-    gap: 10px;
   }
   .img2 {
     display: block;
-  }
-  .team1 {
-    width: 100px;
-    height: 80px;
+    float: left;
   }
   .team2 {
-    width: 95px;
-    height: 63px;
-    margin-left: 20px;
+    width: 272px;
+    height: 206px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -572,84 +537,6 @@ a {
   .img2 {
     display: block;
     float: left;
-  }
-}
-@media screen and (min-width: 300px) {
-  .all-we {
-    gap: 2.5em;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    place-items: center;
-  }
-  .team {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: #200000;
-  }
-  .img2 {
-    display: block;
-    float: left;
-  }
-  .team2 {
-    width: 272px;
-    height: 206px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .all-we {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .team {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: #200000;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .img2 {
-    display: block;
-    float: left;
-  }
-  .team1 {
-    width: 181px;
-    height: 124px;
-  }
-  .team2 {
-    width: 132px;
-    height: 86px;
-    margin-left: 30px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-family: "Playfair Display", serif;
-    background-color: #200000;
-    padding-top: 34px;
-    padding-bottom: 50px;
-    height: 461px;
-    width: 100%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .h2_p {
-    width: 417px;
-  }
-  .h2_p {
-    width: 280px;
-    color: #FFF;
   }
 }
 .about-us {
@@ -709,8 +596,8 @@ a {
     float: left;
   }
   .text-us {
-    font-size: 9px;
-    line-height: 17px;
+    font-size: 6px;
+    line-height: 14px;
     letter-spacing: 0.03em;
     font-weight: 400;
   }
@@ -767,7 +654,7 @@ a {
     background-color: #200000;
     padding-top: 34px;
     padding-bottom: 50px;
-    height: 461px;
+    height: 510px;
     width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -781,8 +668,8 @@ a {
   }
   .about-us {
     font-weight: 700;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 23px;
+    line-height: 27px;
     color: #FFF;
     margin-bottom: 10px;
     letter-spacing: 0.03em;
@@ -790,11 +677,11 @@ a {
     text-align: right;
   }
   .text-us {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    color: #FFF;
     letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFF;
   }
   .img2 {
     display: block;
